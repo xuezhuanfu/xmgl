@@ -26,7 +26,7 @@ public class UserserviceImpl implements UserService {
            if(!po.getPassword().equals(userPO.getPassword())){
                po.setErrMsg("密码错误");
            }else {
-               // 测试测试22
+               // 测试
                po.setErrMsg("ok");
            }
         }
